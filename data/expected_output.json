@@ -1,0 +1,33 @@
+{
+  "forecast_summary": "Forecast covers 14 hours. Peak generation: 980.0 kW at 12:00. Average generation: 522.5 kW. Total estimated output: 7315.0 kWh. Weather context: Partly cloudy, 28\u00b0C, moderate south-west wind, UV index 7",
+  "risk_analysis": "MEDIUM RISK DETECTED: The solar forecast shows moderate variability with a Variability Index of 0.278, indicating fluctuating generation. The most critical period is the afternoon ramp-down between 15:00 and 18:00, where output drops from 680 kW to near zero in 3 hours. Grid operators should prepare demand response and ensure storage is pre-charged during peak midday hours.",
+  "grid_actions": [
+    "Place gas peaker units on 10-minute standby from 14:00 onward.",
+    "Pre-charge battery storage to 90% SOC between 10:00 and 13:00.",
+    "Issue advance demand response alert to industrial consumers for 17:00-20:00."
+  ],
+  "optimization_strategies": [
+    "Schedule EV fleet charging during 10:00-14:00 solar surplus window.",
+    "Coordinate midday power export to neighboring grids to avoid curtailment.",
+    "Deploy smart inverter reactive power support during afternoon voltage dips."
+  ],
+  "references": [
+    "Grid Balancing Strategies for Solar Integration",
+    "Energy Storage Technologies for Solar Grid Support",
+    "Solar Variability and Grid Impact"
+  ],
+  "metadata": {
+    "risk_level": "MEDIUM",
+    "variability_index": 0.2789,
+    "risk_periods": [
+      "07:00: ramp of 135.0 kW (14% of peak)",
+      "16:00: ramp of 300.0 kW (31% of peak)",
+      "17:00: ramp of 230.0 kW (23% of peak)"
+    ],
+    "peak_generation_kw": 980.0,
+    "avg_generation_kw": 522.5,
+    "llm_used": "rule-based",
+    "status": "success",
+    "processing_time_sec": 1.24
+  }
+}

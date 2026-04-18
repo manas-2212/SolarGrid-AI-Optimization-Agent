@@ -1,0 +1,19 @@
+{
+  "raw_forecast": [
+    {"hour": "06:00", "generation_kw": 45},
+    {"hour": "07:00", "generation_kw": 180},
+    {"hour": "08:00", "generation_kw": 420},
+    {"hour": "09:00", "generation_kw": 670},
+    {"hour": "10:00", "generation_kw": 880},
+    {"hour": "11:00", "generation_kw": 950},
+    {"hour": "12:00", "generation_kw": 980},
+    {"hour": "13:00", "generation_kw": 960},
+    {"hour": "14:00", "generation_kw": 870},
+    {"hour": "15:00", "generation_kw": 680},
+    {"hour": "16:00", "generation_kw": 380},
+    {"hour": "17:00", "generation_kw": 150},
+    {"hour": "18:00", "generation_kw": 40},
+    {"hour": "19:00", "generation_kw": 0}
+  ],
+  "weather_summary": "Partly cloudy, 28°C, moderate south-west wind, UV index 7"
+}
